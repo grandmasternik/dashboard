@@ -1,5 +1,6 @@
 function Sidebar() {
     return (
+        <div className="bar">
         <ul>
             <li>Dashboard</li>
             <li>Widget</li>
@@ -7,7 +8,8 @@ function Sidebar() {
             <li>Customers</li>
             <li>Online Analysis</li>
             <li>Settings</li>
-        </ul>)
+        </ul>
+        </div>)
 }
 
 export default Sidebar;

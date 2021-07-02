@@ -7,16 +7,23 @@ import Visitors from './components/Visitors.js';
 
 import './App.css';
 
+
 function App() {
   return (
-    <div className="container">
-
+      <div className="head">
       <Header />
+    <div className="container">
       <Sidebar />
+
+      <div className="middle">
+      <div className="boxer">
       <Reviews />
       <Rating />
       <Sentiment />
+      </div>
       <Visitors />
+      </div>
+    </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-function Header() {
-    return (<h1> Dashboard </h1>)
+function Header () {
+    return (<h1> Analytics </h1>)
 }
 
 export default Header;
